@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fbfbfb;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;    
+    font-size: 16px;
+}
+
+h1{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 37px 25px 27px 0px;
+}
+
+h2{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+h4{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+h6{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.header__container, .second__section__container{
+    width: 85vw;
+    margin: auto;
+}
+
+.header__section{
+    height: 80px;
+    padding: 15px 0px;
+    background-color: #ce0505;
+}
+
+.login__section{
+    float: right;
+}
+
+.logo__section{
+    width: 52px;
+    height: 52px;
+    padding: 6px 10px 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ce0505;
+    float: left;
+}
+
+.login__link{
+    position: relative;
+    top: 15px;
+}
+
+.create__link{
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.aside__section, .content__section__child{
+    float: left;
+}
+
+.aside__section{
+    width: 20%;
+    height: 682px;
+    margin: 27px 45px 8px 0px;
+    padding: 17px 25px 31px 26px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.content__section__child{
+    width: 75%;
+}
+
+.card__section{    
+    height: 291px;
+    margin: 27px 0px 34px 0px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.card__first__img{
+    width: 196px;
+    height: 123px;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+}
+
+.card_first__section{
+    height: 150px;
+    border-bottom: 1px solid #192f6059;
+}
+
+.first__section__content{
+    float: left;
+    padding-left: 30px;
+}
+
+.card_second__section{
+    clear: both;
+    padding-top: 20px;
+}
+
+.card_second__section p span{
+    color: #000;
+    font-weight: bold;
+}
+
+.card_second__section p:nth-child(1) span{
+    margin-left: 80px;
+}
+
+.card_second__section p:nth-child(2) span{
+    margin-left: 37px;
+}
+
+.filters__heading{
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+select#cars {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px 0px 20px 0px;
+}
